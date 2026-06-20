@@ -1,8 +1,8 @@
 name: Daily Tech Stock News
 on:
   schedule:
-    # Runs at 00:30 UTC every day -> 08:30 Asia/Shanghai (UTC+8)
-    - cron: '30 0 * * *'
+    # Runs at 12:30 UTC every day -> 08:30 Asia/Shanghai (UTC+8)
+    - cron: '30 12 * * *'
   workflow_dispatch: {}
 
 jobs:
